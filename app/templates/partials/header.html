@@ -1,0 +1,25 @@
+ <md-toolbar class="md-accent">
+    <div class="md-toolbar-tools">
+      <md-button
+        class="md-icon-button"
+        aria-label="Settings"
+        ng-click="toggleLeft()"
+        ng-hide="isOpenLeft() ">
+        <i class="material-icons md-light">menu</i>
+      </md-button>
+      <h2 style="color:aliceblue">ProjectName</h2>
+      <span flex></span>
+      <md-button
+        class="md-icon-button"
+        aria-label="Favorite"
+        ng-click="ctrl.showToolbarMenu($event, ctrl.favorite)">
+        <i class="material-icons">favorite</i>
+      </md-button>
+      <md-button
+        class="md-icon-button"
+        aria-label="More"
+        ng-click="ctrl.showToolbarMenu($event, ctrl.more)">
+        <i class="material-icons">more_vert</i>
+      </md-button>
+    </div>
+  </md-toolbar>

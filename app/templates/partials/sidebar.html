@@ -1,0 +1,33 @@
+<section layout="row" flex ng-controller="LeftCtrl">
+
+    <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="left">
+      <md-toolbar class="md-theme-light">
+        <div layout="row">
+            <div flex>
+                <div class="md-toolbar-tools">Menu</div>
+            </div>
+            <div flex="20"> 
+            <md-button
+                class="md-toolbar-tools md-icon-button"
+                aria-label="Settings" 
+                ng-click="close()"
+                style="margin-left: auto;">
+                <i class="material-icons" style="height:0px">close</i>
+            </md-button>
+        </div>
+    </div>
+      </md-toolbar>
+
+      <md-content layout-padding>
+        <form>
+          <md-input-container>
+            <label for="testInput">Test input</label>
+            <input type="text" id="testInput"
+                   ng-model="data" md-autofocus>
+          </md-input-container>
+        </form>
+      </md-content>
+    </md-sidenav>
+  </section>
+
+</div>
