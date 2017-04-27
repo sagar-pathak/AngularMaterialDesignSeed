@@ -4,10 +4,10 @@ This project is an application skeleton for a typical AngularJS Material Design 
 
 ## Getting Started
 
-git clone git@github.com:sagar1992/AngularMaterialDesignSeed.git
+git clone git@github.com:sagar1992/AngularMaterialDesignSeed.git<br/>
 cd AngularMaterialDesignSeed
 
-npm install
+npm install<br/>
 npm start
 
 Now browse
