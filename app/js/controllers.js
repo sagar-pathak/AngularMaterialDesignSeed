@@ -2,6 +2,12 @@ angular.module('materialseed.controllers',[])
 .controller('LoginCtrl', function($scope, $state) {
     console.log('LoginCtrl called')
 })
+.controller('DashboardCtrl', function($scope, $state) {
+    console.log('DashboardCtrl called')
+})
+.controller('UsermanagementCtrl', function($scope, $state) {
+    console.log('UsermanagementCtrl called')
+})
 
 /* SidebarNav: starts*/
 .controller('SidebarCtrl', function ($scope, $timeout, $mdSidenav, $log) {

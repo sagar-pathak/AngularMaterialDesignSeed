@@ -4,35 +4,7 @@
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-/* user card */
-.colorsdemoBasicUsage .card-media {
-  margin-right: 16px;
-  border-radius: 50%;
-  overflow: hidden; 
+.sidebaricon{
+  margin-left: auto;
 }
 
-.colorsdemoBasicUsage .md-subhead.description {
-  color: rgba(255, 255, 255, 0.7); }
-
-.colorsdemoBasicUsage .card-media md-icon {
-  width: 40px;
-  height: 40px;
-  color: rgba(255, 255, 255, 0.87); }
-
-.colorsdemoBasicUsage span.card-title {
-  padding-left: 15px;
-  margin-top: 20px; }
-
-.colorsdemoBasicUsage code.css {
-  background-color: #fffcc2; }
-
-.colorsdemoBasicUsage p.footnote code {
-  font-size: 0.85em; }
-
-.colorsdemoBasicUsage p.footnote {
-  font-size: 0.85em;
-  margin: 30px;
-  padding: 5px;
-  background-color: rgba(205, 205, 205, 0.45); }
-
-  /* user card ends */

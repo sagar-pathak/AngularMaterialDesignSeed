@@ -1,5 +1,4 @@
 <section layout="row" flex ng-controller="LeftCtrl">
-
     <md-sidenav class="md-sidenav-left md-whiteframe-4dp" md-component-id="left">
       <md-toolbar class="md-theme-light">
         <div layout="row">
@@ -18,14 +17,15 @@
     </div>
       </md-toolbar>
 
-      <md-content layout-padding>
-        <form>
-          <md-input-container>
-            <label for="testInput">Test input</label>
-            <input type="text" id="testInput"
-                   ng-model="data" md-autofocus>
-          </md-input-container>
-        </form>
+      <md-content >
+        <md-list-item ui-sref="dashboard">
+          <p>Dashboard</p>
+          <i class="material-icons sidebaricon">dashboard</i>
+        </md-list-item>
+        <md-list-item ui-sref="usermanagement">
+          <p>User Management</p>
+          <i class="material-icons sidebaricon">group_add</i>
+        </md-list-item>
       </md-content>
     </md-sidenav>
   </section>
